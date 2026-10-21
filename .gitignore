@@ -1,0 +1,11 @@
+# Nothing generated lives here, but guard against the obvious accidents.
+.env
+.env.*
+*.key
+__pycache__/
+*.pyc
+*.jsonl
+*.pdf
+
+# local helper, not part of the release
+publish.sh
